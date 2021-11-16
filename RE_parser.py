@@ -1,12 +1,9 @@
 from openpyxl import load_workbook
 import re
-import Towns
+from env import path, filename
 
 ## Load workbook ##
 
-path = r'/MyUtilities/CSV_utility/'
-# filename = 'Leads_Data.xlsx'
-filename = 'Leads_data_new.xlsx'
 wb = load_workbook(f'{path}{filename}')
 ws = wb.active
 
