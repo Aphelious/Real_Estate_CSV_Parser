@@ -23,7 +23,7 @@ ws = wb.active
 #         no_data += 1
 #         ws[f'F{row}'].value = "None"
 #     else:
-#         cv = str(cv)
+#         cv = str(cv) #blah blah blah
 #         new_cell_value = cv[0] +' (' + cv[1:4] + ') ' + cv[4:7] + '-' + cv[7:]
 #         ws[f'F{row}'].value = new_cell_value
 #
